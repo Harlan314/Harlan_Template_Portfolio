@@ -47,11 +47,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+For My first milestone I set up all of the circuits including those for my modification 7-segment display. I hooked up all the parts to the arduino and breadboard, namely the joystick, 8x8 LED display, and the single digit 7-segment display. I used code to test the seven segment display and to configure the segments to display each number. My arduino sometimes malfunctions and stops being able to receive code at ties, which makes it hard to test components like the LED display, but the problem usually resolves itself after I just wait a while. I also don't yet have a great understanding of how to Code the Arduino, but doing that will be my second milestone. From here, I plan to test all of the components more thoroughly so that I understand how their code works and how to modify it.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
