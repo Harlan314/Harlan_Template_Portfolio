@@ -36,11 +36,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 My second Milestone was comprehensively reading the code and modifying it so that I could implement my modifications, which included a 7-segment display score counter and a buzzer that plays noises whenever you get a point and gives a long tone when you win/reach score 10. Setting up the buzzer to give a long tone for winning the game was actually much more difficult than maybe anoy other part of the project so far, since for some reason putting a delay on the buzzer before turning it off always managed to break the system that lets you restart the game by clicking on the joystick. I eventualy resolved this problem by making and calling a function that controlled the long buzzer tone. My project is relatively complete at this point, but additional modifications will be made.
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
 
 # First Milestone
 
