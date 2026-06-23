@@ -46,7 +46,7 @@ My second Milestone was comprehensively reading the code and modifying it so tha
 For My first milestone I set up all of the circuits including those for my modification 7-segment display. I hooked up all the parts to the arduino and breadboard, namely the joystick, 8x8 LED display, and the single digit 7-segment display. I used code to test the seven segment display and to configure the segments to display each number. My arduino sometimes malfunctions and stops being able to receive code at times, which makes it hard to test components like the LED display, but the problem usually resolves itself after I just wait a while. I also don't yet have a great understanding of how to Code the Arduino, but doing that will be my second milestone. I also copied and pasted the code for the snake game from GitHub, and the basic project/game is working in full. From here, I plan to test all of the components more thoroughly so that I understand how their code works and how to modify it.
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resources to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+Snake schematic.png
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
