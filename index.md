@@ -1,5 +1,5 @@
 # LED Snake Game
-For my project I am creating an LED matrix snake-game using Arduino. I am also adding a 7-segment display score counter...
+For my project I am creating an LED matrix snake-game using Arduino. I am also adding a 7-segment display score counter, alongside a buzzer for sound effects, and making it battery powered so it does not have to be connected to a computer.
 
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
