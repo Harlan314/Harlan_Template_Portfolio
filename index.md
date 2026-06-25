@@ -1,7 +1,6 @@
 # LED Snake Game
 For my project I am creating an LED matrix snake-game using Arduino. I am also adding a 7-segment display score counter...
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
