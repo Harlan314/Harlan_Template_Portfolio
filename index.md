@@ -13,7 +13,7 @@ For my project I am creating an LED matrix snake-game using Arduino. I am also a
 ![Headstone Image](IMG_2308.jpeg)
   
 
-# Second Milestone
+# Final Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2iNTxhTOugI?si=kSRZc1ZcSRa-uu9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
