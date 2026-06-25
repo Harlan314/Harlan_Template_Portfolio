@@ -12,21 +12,17 @@ For my project I am creating an LED matrix snake-game using Arduino. I am also a
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![Headstone Image](IMG_2308.jpeg)
   
 
 
 # Second Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2iNTxhTOugI?si=kSRZc1ZcSRa-uu9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 My second Milestone was comprehensively reading the code and modifying it so that I could implement my modifications, which included a 7-segment display score counter and a buzzer that plays noises whenever you get a point and gives a long tone when you win/reach score 10. Setting up the buzzer to give a long tone for winning the game was actually much more difficult than maybe anoy other part of the project so far, since for some reason putting a delay on the buzzer before turning it off always managed to break the system that lets you restart the game by clicking on the joystick. I eventualy resolved this problem by making and calling a function that controlled the long buzzer tone. My project is relatively complete at this point, but additional modifications will be made.
 
 # First Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5GwjKuS7cKQ?si=6CpddnwtKRebBDAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -36,7 +32,6 @@ For My first milestone I set up all of the circuits including those for my modif
 ![Headstone Image](Snake_schematic.png)
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
 #include "LedControl.h"
@@ -454,6 +449,9 @@ if(num == 10) {
 |:--:|:--:|:--:|:--:|
 | Elegoo Starter Kit | contains Arduino and parts for all modifications, as well as wires | $44.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/ELEGOO-Project-Tutorial-Controller-Projects/dp/B01D8KOZF4/ref=sr_1_3_pp?crid=2CDRMQVSYOD4H&dib=eyJ2IjoiMSJ9.AcWZy-Yg4mDTnhzEHozxzPZdVC5-KUL2tW-OQewDKpA7ZhEVnlvYJFELmn1cEN5uvrZVxp4St_nlIhbtJibvxUj7s5mZJHZ5gTUoGHyjSCEJnV1m-a2PWxrXyWYqZrufz70WGPo3NV3-f7iFEXccDbUvJu8BRvjxPCjgkJ_uJnDxpPk3Gjw_yw7XMWWb8ll4GsOLKWrxeEr1uOS5BeD0EU2Y1MvZXAOcITMnykL7K69Fr4P6SnWB2EpkaJ37raPdYGD096Z_rSPyEsRfxIx6Rv9N65w4nRID980vI94aLYQ.PuIIln1now7ULLLgzCb0zPl5SBpDXd-IT05ToFwhflM&dib_tag=se&keywords=arduino+starter+kit&qid=1720652047&s=industrial&sprefix=arduino+starter+ki%2Cindustrial%2C72&sr=1-3)"> Link </a> |
 | 8x8 LED Display | Screen for the game | $11.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/ALAMSCN-MAX7219-Display-Raspberry-Microcontroller/dp/B08SQT9GGB/ref=sr_1_6?crid=EKB5YLZR2HRK&dib=eyJ2IjoiMSJ9.lHn6ZkDX4LEZ7Ag3-iCVXkFy7AXOPnp8v63jOLxAmizkaIMzHuZ6uT2s0JzIluA3ko66s56GuMW1AGlSd-h6K2-o5PgwfC1bLVk4-fEAsC_eIk5rG1eQntpYE8r7f3n88i4820SV7pl6TGShXrL9kW5-xE8HLZhcR1elb6u89Ss_SfVXTjGivtdHnL8Cei6I1G6HMk1e9Kgd1WVlb7I5ADovI-1whA1zWSyCTRbxJXs.K3RJmUVOK4B7LVNGKwbYcPPfv60-65vChh7tsdXvQ5g&dib_tag=se&keywords=max7219+8x8+dot+matrix+module&qid=1780953289&sprefix=8x8+dot+modu%2Caps%2C144&sr=8-6)"> Link </a> |
+
+# Notes
+The "Elegoo Starter Kit" includes several parts used in the final project, including an Arduino UNO R3, a seven-segment display, a Joystick module, a buzzer, and the various wires that connect the circuit.
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
